@@ -1,0 +1,120 @@
+/* RESET & BASE STYLES */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header, footer {
+      text-align: center;
+      background: #fff;
+      padding: 15px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    p.instructions {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
+    /* ABACUS CONTAINER */
+    .abacus-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .abacus-column {
+      width: 60px;
+      background: #fdfdfd;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+    }
+    /* Place value label for each column */
+    .col-value {
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 0.9em;
+      color: #007BFF;
+    }
+    /* Upper Bead */
+    .upper-bead {
+      width: 30px;
+      height: 30px;
+      background: #FF6347;  /* Tomato red */
+      border: 1px solid #999;
+      border-radius: 50%;
+      margin: 0 auto;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    /* When active, move downward (toward the bar) */
+    .upper-bead.active {
+      transform: translateY(20px);
+    }
+    /* The Bar */
+    .bar {
+      width: 40px;
+      height: 4px;
+      background: #333;
+      margin: 10px auto;
+    }
+    /* Lower Beads Container */
+    .lower-beads {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .lower-bead {
+      width: 30px;
+      height: 30px;
+      background: #1E90FF;  /* Dodger blue */
+      border: 1px solid #999;
+      border-radius: 50%;
+      transition: transform 0.3s;
+      cursor: pointer;
+      /* All lower beads start in default (unpressed) state */
+    }
+    /* When active, lower beads move upward (toward the bar) */
+    .lower-bead.active {
+      transform: translateY(-20px);
+    }
+    /* RESET BUTTON */
+    .btn-reset {
+      display: block;
+      margin: 0 auto 20px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      background: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .btn-reset:hover {
+      background: #0056b3;
+    }
+    /* Abacus Value Display */
+    #abacusValue {
+      text-align: center;
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
