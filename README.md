@@ -21,7 +21,6 @@ The **abacus** is one of the earliest known tools for **calculations**, used in 
 - 🎨 **Modern & Intuitive UI** (Designed for learners & educators)  
 - 🔄 **Real-Time Bead Movement** (Drag and manipulate beads easily)  
 - 🎓 **Educational Mode:** Step-by-step guides for **learning abacus techniques**  
-- 🎮 **Fun Exercises & Challenges** to test skills  
 
 ---
 
@@ -36,10 +35,7 @@ Drag the **beads** along the **rods** to represent numbers.
 **3️⃣ Perform Calculations**  
 Use the **abacus rules** to perform **addition, subtraction, multiplication, and division**.  
 
-**4️⃣ Challenge Yourself**  
-Try **interactive exercises** to improve **mental calculation skills**!  
-
-**5️⃣ Save & Export Your Work**  
+**4️⃣ Save & Export Your Work**  
 Export calculations as **PNG, JPG, or PDF** with one click!  
 
 ---
@@ -61,8 +57,7 @@ If you like **Abacus Web App**, ⭐ **star this repository** and help improve th
 
 ---
 
-## 🔗 License  
-
+## 🔗 License  GPL
 This project is licensed under the **MIT License**.  
 Feel free to **use, modify, and distribute** it freely! 😊  
 
